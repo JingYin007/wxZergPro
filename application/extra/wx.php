@@ -7,8 +7,12 @@
  * Time: 13:52
  */
 return [
-    'app_id' => 'wx680ed9137317644f',
-    'app_secret' => '01de707b2b666e0370a616e691e5e602',
+    // 沸腾小程序
+    'app_id' => 'wx8787213c85f13bc0',//wx8787213c85f13bc0 wx680ed9137317644f
+    'app_secret' => '0a78b7e13bef9c3e72b27c093c880622',//0a78b7e13bef9c3e72b27c093c880622 01de707b2b666e0370a616e691e5e602
+    //个人测试小程序
+//    'app_id' => 'wx680ed9137317644f',
+//    'app_secret' => '01de707b2b666e0370a616e691e5e602',
 
     // 微信使用code换取用户openid及session_key的url地址
     'login_url' => "https://api.weixin.qq.com/sns/jscode2session?".
